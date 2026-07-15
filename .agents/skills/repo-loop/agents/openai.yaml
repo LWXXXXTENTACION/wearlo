@@ -1,0 +1,10 @@
+interface:
+  display_name: "仓库闭环"
+  short_description: "以仓库验证门禁执行最多三轮的有界编码、修复、重构与问题排查闭环"
+  default_prompt: "使用 $repo-loop 实现并验证一个范围明确的仓库任务。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "github"
+      description: "通过 @github 读取仓库、Issue 与 Pull Request 上下文。"
