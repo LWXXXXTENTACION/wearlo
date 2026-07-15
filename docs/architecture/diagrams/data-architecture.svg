@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#0C1222"/>
+  <circle cx="310" cy="160" r="170" fill="#20C4B2" opacity="0.08"/>
+  <circle cx="1400" cy="820" r="250" fill="#7C6BFF" opacity="0.08"/>
+
+  <text x="70" y="78" fill="#80E9DD" font-size="18" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">WEARLO · DATA OWNERSHIP</text>
+  <text x="70" y="130" fill="#FFFFFF" font-size="40" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">数据架构：事实、加速与智能检索分层</text>
+  <text x="70" y="168" fill="#9BA8C8" font-size="19" font-family="Noto Sans SC, PingFang SC, Arial">PostgreSQL 保存事实，Redis 只做可重建状态，AI 通过契约读取交易数据</text>
+
+  <polyline points="465,390 585,390" fill="none" stroke="#35C7B6" stroke-width="4"/>
+  <polygon points="585,390 571,382 571,398" fill="#35C7B6"/>
+  <polyline points="1135,390 1015,390" fill="none" stroke="#8576FF" stroke-width="4"/>
+  <polygon points="1015,390 1029,382 1029,398" fill="#8576FF"/>
+  <polyline points="800,590 800,690" fill="none" stroke="#4C5B7D" stroke-width="4"/>
+  <polygon points="800,690 792,676 808,676" fill="#4C5B7D"/>
+  <polyline points="665,565 465,705" fill="none" stroke="#4C5B7D" stroke-width="3"/>
+  <polygon points="465,705 475,691 483,702" fill="#4C5B7D"/>
+  <polyline points="935,565 1135,705" fill="none" stroke="#4C5B7D" stroke-width="3"/>
+  <polygon points="1135,705 1117,702 1125,691" fill="#4C5B7D"/>
+
+  <g>
+    <rect x="90" y="285" width="375" height="300" rx="34" fill="#102E31" stroke="#20C4B2" stroke-width="3"/>
+    <text x="135" y="338" fill="#8AF2E6" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">OWNER</text>
+    <text x="135" y="382" fill="#FFFFFF" font-size="31" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Go 商城核心</text>
+    <text x="135" y="418" fill="#9ED4D0" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">交易数据唯一写入口</text>
+    <rect x="135" y="462" width="130" height="34" rx="17" fill="#194B50"/>
+    <rect x="280" y="462" width="130" height="34" rx="17" fill="#194B50"/>
+    <rect x="135" y="514" width="130" height="34" rx="17" fill="#194B50"/>
+    <rect x="280" y="514" width="130" height="34" rx="17" fill="#194B50"/>
+    <text x="200" y="484" text-anchor="middle" fill="#D1FFFA" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">事务与锁</text>
+    <text x="345" y="484" text-anchor="middle" fill="#D1FFFA" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">状态机</text>
+    <text x="200" y="536" text-anchor="middle" fill="#D1FFFA" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">幂等键</text>
+    <text x="345" y="536" text-anchor="middle" fill="#D1FFFA" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">Outbox</text>
+  </g>
+
+  <g>
+    <rect x="585" y="255" width="430" height="335" rx="40" fill="#151D35" stroke="#5C6D94" stroke-width="3"/>
+    <ellipse cx="800" cy="320" rx="155" ry="48" fill="#315B7A"/>
+    <rect x="645" y="320" width="310" height="190" fill="#24445F"/>
+    <ellipse cx="800" cy="510" rx="155" ry="48" fill="#1D374F"/>
+    <ellipse cx="800" cy="320" rx="155" ry="48" fill="none" stroke="#86D8FF" stroke-width="3"/>
+    <text x="800" y="328" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">PostgreSQL</text>
+    <text x="800" y="385" text-anchor="middle" fill="#AEE6FF" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">持久化事实来源</text>
+    <text x="800" y="425" text-anchor="middle" fill="#D4E4F2" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">identity · commerce · style · ai</text>
+    <text x="800" y="458" text-anchor="middle" fill="#D4E4F2" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">全文搜索 + pgvector 混合检索</text>
+    <rect x="690" y="535" width="220" height="34" rx="17" fill="#0F2739"/>
+    <text x="800" y="557" text-anchor="middle" fill="#86D8FF" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">备份 · WAL · 迁移 · 审计</text>
+  </g>
+
+  <g>
+    <rect x="1135" y="285" width="375" height="300" rx="34" fill="#211B3E" stroke="#8576FF" stroke-width="3"/>
+    <text x="1180" y="338" fill="#BDB4FF" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">CONSUMER</text>
+    <text x="1180" y="382" fill="#FFFFFF" font-size="31" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Python AI 助手</text>
+    <text x="1180" y="418" fill="#BBB3DC" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">读取画像与索引，工具化访问交易</text>
+    <rect x="1180" y="462" width="130" height="34" rx="17" fill="#3A3166"/>
+    <rect x="1325" y="462" width="130" height="34" rx="17" fill="#3A3166"/>
+    <rect x="1180" y="514" width="130" height="34" rx="17" fill="#3A3166"/>
+    <rect x="1325" y="514" width="130" height="34" rx="17" fill="#3A3166"/>
+    <text x="1245" y="484" text-anchor="middle" fill="#ECE9FF" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">风格画像</text>
+    <text x="1390" y="484" text-anchor="middle" fill="#ECE9FF" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">向量检索</text>
+    <text x="1245" y="536" text-anchor="middle" fill="#ECE9FF" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">会话记录</text>
+    <text x="1390" y="536" text-anchor="middle" fill="#ECE9FF" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">推荐评测</text>
+  </g>
+
+  <g>
+    <rect x="90" y="690" width="375" height="190" rx="32" fill="#2B1C26" stroke="#D85E72" stroke-width="2"/>
+    <circle cx="145" cy="747" r="26" fill="#D85E72"/>
+    <text x="145" y="755" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="Arial">R</text>
+    <text x="190" y="740" fill="#FFFFFF" font-size="25" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Redis</text>
+    <text x="190" y="770" fill="#E8AAB5" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">缓存 · 会话 · 限流 · 短期状态</text>
+    <text x="130" y="823" fill="#FFCBD4" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">仅存可重建数据，不作为交易事实</text>
+  </g>
+
+  <g>
+    <rect x="585" y="690" width="430" height="190" rx="32" fill="#171F35" stroke="#596A91" stroke-width="2"/>
+    <text x="630" y="740" fill="#FFFFFF" font-size="25" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Redis Streams + Outbox</text>
+    <text x="630" y="774" fill="#A8B4D3" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">商品、库存、订单、支付领域事件</text>
+    <rect x="630" y="809" width="140" height="32" rx="16" fill="#263250"/>
+    <rect x="785" y="809" width="90" height="32" rx="16" fill="#263250"/>
+    <rect x="890" y="809" width="80" height="32" rx="16" fill="#263250"/>
+    <text x="700" y="830" text-anchor="middle" fill="#D7DFF4" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">消费组与重放</text>
+    <text x="830" y="830" text-anchor="middle" fill="#D7DFF4" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">幂等</text>
+    <text x="930" y="830" text-anchor="middle" fill="#D7DFF4" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">追踪</text>
+  </g>
+
+  <g>
+    <rect x="1135" y="690" width="375" height="190" rx="32" fill="#26241B" stroke="#A89355" stroke-width="2"/>
+    <circle cx="1190" cy="747" r="26" fill="#C4A55B"/>
+    <path d="M1175 750 L1190 738 L1205 750 L1190 762 Z" fill="#FFF7D7"/>
+    <text x="1235" y="740" fill="#FFFFFF" font-size="25" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">对象存储</text>
+    <text x="1235" y="770" fill="#D7C794" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">商品图 · 穿搭图 · 用户上传</text>
+    <text x="1175" y="823" fill="#EFE4BC" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">数据库只保存对象键、元数据与权限</text>
+  </g>
+
+  <rect x="320" y="920" width="960" height="42" rx="21" fill="#151D35"/>
+  <text x="800" y="947" text-anchor="middle" fill="#AAB7D6" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">规则：交易数据强一致 · 事件最终一致 · 缓存可失效 · AI 输出可追溯</text>
+</svg>

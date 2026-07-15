@@ -1,0 +1,24 @@
+sequenceDiagram
+    autonumber
+    actor U as 用户
+    participant W as Web
+    participant A as AI助手
+    participant D as 检索层
+    participant G as Go商城
+    participant M as 模型服务
+
+    U->>W: 描述场景与需求
+    W->>A: 发送会话与问题
+    A->>D: 查询画像与候选商品
+    D-->>A: 返回混合检索结果
+    A->>G: 校验价格库存尺码
+    G-->>A: 返回实时可售数据
+    A->>M: 生成搭配与解释
+    M-->>A: 流式生成结果
+    A-->>W: SSE返回推荐卡片
+    W-->>U: 展示搭配与理由
+    U->>W: 确认加入购物车
+    W->>A: 提交已确认动作
+    A->>G: 调用购物车API
+    G-->>A: 返回购物车快照
+    A-->>W: 返回操作结果

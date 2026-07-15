@@ -13,6 +13,7 @@ Wearlo 是一个面向年轻人的 AI 穿搭购物平台，提供商品浏览、
 ## 项目文档
 
 - [总体架构](docs/architecture/overall-architecture.md)
+- [架构图文件](docs/architecture/diagrams/README.md)
 - [Agent 协作指南](docs/agent/README.md)
 
 项目目前处于架构设计和工程初始化阶段。

@@ -1,0 +1,27 @@
+sequenceDiagram
+    autonumber
+    actor U as 用户
+    participant W as Web
+    participant G as Go商城
+    participant P as PostgreSQL
+    participant Pay as 支付服务
+    participant S as RedisStreams
+    participant A as AI助手
+
+    U->>W: 确认结算
+    W->>G: 创建订单(幂等键)
+    G->>P: 校验价格并预占库存
+    P-->>G: 事务提交
+    G-->>W: 返回待支付订单
+    W->>Pay: 发起支付
+    Pay-->>G: 支付回调
+    G->>G: 验签与幂等校验
+    G->>P: 更新支付与订单状态
+    G->>P: 写入Outbox事件
+    P-->>G: 事务提交
+    G-->>Pay: 确认回调
+    G->>S: 发布订单已支付
+    S-->>A: 消费购买事件
+    A->>A: 更新偏好与推荐反馈
+    G-->>W: 查询返回最新订单
+    W-->>U: 展示支付成功

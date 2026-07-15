@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#F5F7FC"/>
+  <circle cx="1510" cy="70" r="190" fill="#725CFF" opacity="0.08"/>
+  <circle cx="80" cy="940" r="250" fill="#19BFAE" opacity="0.08"/>
+
+  <text x="70" y="75" fill="#6756D8" font-size="18" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">WEARLO · RESPONSIBILITY MAP</text>
+  <text x="70" y="125" fill="#17213B" font-size="40" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">服务边界：体验、交易与智能各司其职</text>
+  <text x="70" y="162" fill="#687493" font-size="19" font-family="Noto Sans SC, PingFang SC, Arial">跨服务只通过版本化契约；Python 不越权写交易数据</text>
+
+  <rect x="60" y="215" width="400" height="630" rx="34" fill="#E9F8F5" stroke="#30BFAF" stroke-width="3"/>
+  <circle cx="112" cy="272" r="25" fill="#1DB9A8"/>
+  <text x="112" y="280" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="Arial">01</text>
+  <text x="155" y="270" fill="#123B39" font-size="29" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Web 体验域</text>
+  <text x="155" y="300" fill="#4B7975" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">Next.js · React · TypeScript</text>
+
+  <rect x="95" y="345" width="330" height="94" rx="22" fill="#FFFFFF" stroke="#B6E6DE" stroke-width="2"/>
+  <circle cx="130" cy="392" r="16" fill="#D6F5F0"/>
+  <text x="161" y="385" fill="#173D3A" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">内容与商品体验</text>
+  <text x="161" y="414" fill="#63847F" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">首页、穿搭流、搜索、详情</text>
+  <rect x="95" y="459" width="330" height="94" rx="22" fill="#FFFFFF" stroke="#B6E6DE" stroke-width="2"/>
+  <circle cx="130" cy="506" r="16" fill="#D6F5F0"/>
+  <text x="161" y="499" fill="#173D3A" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">交易交互</text>
+  <text x="161" y="528" fill="#63847F" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">购物车、结算、订单、售后</text>
+  <rect x="95" y="573" width="330" height="94" rx="22" fill="#FFFFFF" stroke="#B6E6DE" stroke-width="2"/>
+  <circle cx="130" cy="620" r="16" fill="#D6F5F0"/>
+  <text x="161" y="613" fill="#173D3A" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">AI 对话</text>
+  <text x="161" y="642" fill="#63847F" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">流式回答、商品卡片、操作确认</text>
+  <rect x="95" y="702" width="330" height="95" rx="22" fill="#173D3A"/>
+  <text x="125" y="742" fill="#8DF0E4" font-size="15" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">边界</text>
+  <text x="125" y="772" fill="#FFFFFF" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">不保存密钥 · 不直接访问数据库</text>
+
+  <rect x="500" y="215" width="610" height="630" rx="34" fill="#102B2E" stroke="#19BFAE" stroke-width="3"/>
+  <circle cx="553" cy="272" r="25" fill="#19BFAE"/>
+  <text x="553" y="280" text-anchor="middle" fill="#08201F" font-size="18" font-weight="800" font-family="Arial">02</text>
+  <text x="596" y="270" fill="#FFFFFF" font-size="29" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Go 商城核心</text>
+  <text x="596" y="300" fill="#8DE9DF" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">唯一交易写入口 · 模块化单体</text>
+
+  <rect x="540" y="345" width="250" height="100" rx="22" fill="#174247"/>
+  <rect x="820" y="345" width="250" height="100" rx="22" fill="#174247"/>
+  <rect x="540" y="470" width="250" height="100" rx="22" fill="#174247"/>
+  <rect x="820" y="470" width="250" height="100" rx="22" fill="#174247"/>
+  <rect x="540" y="595" width="250" height="100" rx="22" fill="#174247"/>
+  <rect x="820" y="595" width="250" height="100" rx="22" fill="#174247"/>
+  <text x="575" y="383" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Identity / Catalog</text>
+  <text x="575" y="415" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">用户、商品、SKU、类目</text>
+  <text x="855" y="383" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Inventory</text>
+  <text x="855" y="415" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">可售、预占、扣减、释放</text>
+  <text x="575" y="508" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Pricing / Cart</text>
+  <text x="575" y="540" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">价格、促销、购物车快照</text>
+  <text x="855" y="508" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Order / Payment</text>
+  <text x="855" y="540" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">订单、支付、退款、售后</text>
+  <text x="575" y="633" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Content</text>
+  <text x="575" y="665" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">穿搭专题与商品关联</text>
+  <text x="855" y="633" fill="#FFFFFF" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Outbox / Event</text>
+  <text x="855" y="665" fill="#A5D7D3" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">事务事件、重试与幂等</text>
+  <rect x="540" y="735" width="530" height="62" rx="20" fill="#0B2022" stroke="#286068" stroke-width="2"/>
+  <text x="805" y="762" text-anchor="middle" fill="#8DE9DF" font-size="15" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">交易不变量</text>
+  <text x="805" y="786" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">事务 · 幂等键 · 审计 · 状态机 · 权限校验</text>
+
+  <rect x="1150" y="215" width="390" height="630" rx="34" fill="#F0EDFF" stroke="#806DFF" stroke-width="3"/>
+  <circle cx="1203" cy="272" r="25" fill="#806DFF"/>
+  <text x="1203" y="280" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="Arial">03</text>
+  <text x="1246" y="270" fill="#2E2458" font-size="29" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Python AI 域</text>
+  <text x="1246" y="300" fill="#70669A" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">FastAPI · Agent · Retrieval</text>
+
+  <circle cx="1215" cy="378" r="26" fill="#806DFF"/>
+  <circle cx="1215" cy="482" r="26" fill="#806DFF"/>
+  <circle cx="1215" cy="586" r="26" fill="#806DFF"/>
+  <circle cx="1215" cy="690" r="26" fill="#806DFF"/>
+  <polyline points="1215,404 1215,456" fill="none" stroke="#A69BDE" stroke-width="4"/>
+  <polyline points="1215,508 1215,560" fill="none" stroke="#A69BDE" stroke-width="4"/>
+  <polyline points="1215,612 1215,664" fill="none" stroke="#A69BDE" stroke-width="4"/>
+  <text x="1215" y="385" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="Arial">1</text>
+  <text x="1215" y="489" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="Arial">2</text>
+  <text x="1215" y="593" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="Arial">3</text>
+  <text x="1215" y="697" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="Arial">4</text>
+  <text x="1260" y="373" fill="#34295F" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">意图与风格理解</text>
+  <text x="1260" y="397" fill="#756D95" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">场景、预算、身材、偏好</text>
+  <text x="1260" y="477" fill="#34295F" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">混合检索</text>
+  <text x="1260" y="501" fill="#756D95" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">全文、向量、业务过滤</text>
+  <text x="1260" y="581" fill="#34295F" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">受控工具调用</text>
+  <text x="1260" y="605" fill="#756D95" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">向 Go 查询价格与库存</text>
+  <text x="1260" y="685" fill="#34295F" font-size="19" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">推荐与解释</text>
+  <text x="1260" y="709" fill="#756D95" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">SSE 流式输出与反馈</text>
+  <rect x="1190" y="750" width="310" height="48" rx="18" fill="#2E2458"/>
+  <text x="1345" y="780" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">禁止直写交易表</text>
+
+  <polyline points="460,530 500,530" fill="none" stroke="#51617F" stroke-width="4"/>
+  <polygon points="500,530 486,522 486,538" fill="#51617F"/>
+  <polyline points="1150,530 1110,530" fill="none" stroke="#806DFF" stroke-width="4"/>
+  <polygon points="1110,530 1124,522 1124,538" fill="#806DFF"/>
+
+  <rect x="180" y="885" width="1240" height="62" rx="28" fill="#17213B"/>
+  <text x="800" y="912" text-anchor="middle" fill="#AFC0E7" font-size="14" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">共享契约层</text>
+  <text x="800" y="936" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">OpenAPI · Event Schema · 统一身份声明 · Trace Context · 错误码</text>
+</svg>

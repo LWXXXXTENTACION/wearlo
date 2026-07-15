@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#0B1020"/>
+  <circle cx="1450" cy="90" r="180" fill="#6C5CE7" opacity="0.12"/>
+  <circle cx="90" cy="910" r="230" fill="#19C3B1" opacity="0.09"/>
+  <circle cx="820" cy="500" r="390" fill="#FFFFFF" opacity="0.025"/>
+
+  <text x="72" y="78" fill="#8AF2E6" font-size="18" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">WEARLO · SYSTEM LANDSCAPE</text>
+  <text x="72" y="132" fill="#FFFFFF" font-size="42" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">年轻人穿搭电商 · 总体架构</text>
+  <text x="72" y="172" fill="#9AA7C7" font-size="20" font-family="Noto Sans SC, PingFang SC, Arial">Go 守住交易事实，Python 负责智能体验，React/TypeScript 连接用户</text>
+
+  <rect x="72" y="215" width="1456" height="2" fill="#28324E"/>
+
+  <text x="72" y="270" fill="#7885A6" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">体验层</text>
+  <text x="72" y="488" fill="#7885A6" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">服务层</text>
+  <text x="72" y="752" fill="#7885A6" font-size="16" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">数据与生态层</text>
+
+  <polyline points="245,350 345,350" fill="none" stroke="#4C5A7D" stroke-width="4"/>
+  <polygon points="345,350 331,342 331,358" fill="#4C5A7D"/>
+  <polyline points="625,350 725,350" fill="none" stroke="#4C5A7D" stroke-width="4"/>
+  <polygon points="725,350 711,342 711,358" fill="#4C5A7D"/>
+  <polyline points="995,350 1070,350 1070,560 1015,560" fill="none" stroke="#6C5CE7" stroke-width="4"/>
+  <polygon points="1015,560 1029,552 1029,568" fill="#6C5CE7"/>
+  <polyline points="865,430 865,485" fill="none" stroke="#19C3B1" stroke-width="4"/>
+  <polygon points="865,485 857,471 873,471" fill="#19C3B1"/>
+  <polyline points="785,675 785,765" fill="none" stroke="#19C3B1" stroke-width="4"/>
+  <polygon points="785,765 777,751 793,751" fill="#19C3B1"/>
+  <polyline points="945,675 945,715 1118,715 1118,765" fill="none" stroke="#6C5CE7" stroke-width="4"/>
+  <polygon points="1118,765 1110,751 1126,751" fill="#6C5CE7"/>
+  <polyline points="1115,430 1115,485" fill="none" stroke="#FF8A65" stroke-width="4"/>
+  <polygon points="1115,485 1107,471 1123,471" fill="#FF8A65"/>
+
+  <g>
+    <circle cx="165" cy="350" r="80" fill="#141C33" stroke="#3D4B70" stroke-width="2"/>
+    <circle cx="165" cy="323" r="22" fill="#8AF2E6"/>
+    <path d="M124 384 Q165 342 206 384" fill="#19C3B1"/>
+    <text x="165" y="416" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">年轻用户</text>
+  </g>
+
+  <g>
+    <rect x="345" y="290" width="280" height="120" rx="34" fill="#141C33" stroke="#3D4B70" stroke-width="2"/>
+    <circle cx="397" cy="350" r="24" fill="#273253"/>
+    <path d="M379 350 H415 M397 332 V368" stroke="#8AF2E6" stroke-width="4"/>
+    <text x="440" y="338" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">CDN / WAF</text>
+    <text x="440" y="371" fill="#9AA7C7" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">图片加速 · 安全防护</text>
+  </g>
+
+  <g>
+    <rect x="725" y="270" width="270" height="160" rx="30" fill="#112E31" stroke="#19C3B1" stroke-width="3"/>
+    <rect x="758" y="302" width="62" height="62" rx="16" fill="#19C3B1"/>
+    <text x="789" y="344" text-anchor="middle" fill="#071417" font-size="26" font-weight="900" font-family="Arial">W</text>
+    <text x="842" y="326" fill="#FFFFFF" font-size="25" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">Web 应用</text>
+    <text x="842" y="358" fill="#8AF2E6" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">Next.js · React · TS</text>
+    <text x="758" y="402" fill="#B8C3D9" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">SEO · 商品流 · AI 对话 · 交易</text>
+  </g>
+
+  <g>
+    <rect x="1070" y="282" width="310" height="136" rx="30" fill="#181F35" stroke="#657399" stroke-width="2"/>
+    <text x="1110" y="326" fill="#FFFFFF" font-size="25" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">API Gateway / BFF</text>
+    <text x="1110" y="360" fill="#9AA7C7" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">鉴权 · 路由 · 限流 · 聚合</text>
+    <rect x="1110" y="380" width="112" height="24" rx="12" fill="#273253"/>
+    <text x="1166" y="397" text-anchor="middle" fill="#C5D0E8" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">REST / SSE</text>
+  </g>
+
+  <g>
+    <rect x="560" y="485" width="450" height="190" rx="34" fill="#102C2E" stroke="#19C3B1" stroke-width="3"/>
+    <circle cx="620" cy="545" r="30" fill="#19C3B1"/>
+    <text x="620" y="554" text-anchor="middle" fill="#071417" font-size="23" font-weight="900" font-family="Arial">GO</text>
+    <text x="670" y="540" fill="#FFFFFF" font-size="29" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">商城核心</text>
+    <text x="670" y="570" fill="#8AF2E6" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">交易事实来源 · 模块化单体</text>
+    <rect x="600" y="605" width="82" height="30" rx="15" fill="#194247"/>
+    <rect x="692" y="605" width="82" height="30" rx="15" fill="#194247"/>
+    <rect x="784" y="605" width="82" height="30" rx="15" fill="#194247"/>
+    <rect x="876" y="605" width="92" height="30" rx="15" fill="#194247"/>
+    <text x="641" y="625" text-anchor="middle" fill="#C9FFF8" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">商品</text>
+    <text x="733" y="625" text-anchor="middle" fill="#C9FFF8" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">库存</text>
+    <text x="825" y="625" text-anchor="middle" fill="#C9FFF8" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">订单</text>
+    <text x="922" y="625" text-anchor="middle" fill="#C9FFF8" font-size="13" font-family="Noto Sans SC, PingFang SC, Arial">支付售后</text>
+  </g>
+
+  <g>
+    <rect x="1050" y="485" width="400" height="190" rx="34" fill="#211A3B" stroke="#7F6BFF" stroke-width="3"/>
+    <circle cx="1110" cy="545" r="30" fill="#7F6BFF"/>
+    <text x="1110" y="554" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="900" font-family="Arial">AI</text>
+    <text x="1160" y="540" fill="#FFFFFF" font-size="29" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">智能电商助手</text>
+    <text x="1160" y="570" fill="#C2B8FF" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">FastAPI · Agent 编排 · SSE</text>
+    <text x="1090" y="618" fill="#D8D2FF" font-size="15" font-family="Noto Sans SC, PingFang SC, Arial">理解 → 检索 → 工具调用 → 推荐解释</text>
+    <text x="1090" y="648" fill="#9F95CD" font-size="14" font-family="Noto Sans SC, PingFang SC, Arial">交易写操作必须通过 Go API</text>
+  </g>
+
+  <g>
+    <rect x="500" y="765" width="570" height="150" rx="32" fill="#141C33" stroke="#3D4B70" stroke-width="2"/>
+    <text x="540" y="807" fill="#FFFFFF" font-size="23" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">数据底座</text>
+    <rect x="540" y="830" width="230" height="54" rx="18" fill="#1C3850"/>
+    <rect x="790" y="830" width="230" height="54" rx="18" fill="#3B2544"/>
+    <text x="655" y="854" text-anchor="middle" fill="#8DE4FF" font-size="17" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">PostgreSQL + pgvector</text>
+    <text x="655" y="875" text-anchor="middle" fill="#9CB8CB" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">事实数据 · 全文与向量检索</text>
+    <text x="905" y="854" text-anchor="middle" fill="#FFB7C8" font-size="17" font-weight="700" font-family="Noto Sans SC, PingFang SC, Arial">Redis + Streams</text>
+    <text x="905" y="875" text-anchor="middle" fill="#C4A2B0" font-size="12" font-family="Noto Sans SC, PingFang SC, Arial">缓存 · 会话 · 事件</text>
+  </g>
+
+  <g>
+    <rect x="1110" y="765" width="340" height="150" rx="32" fill="#251D22" stroke="#704D55" stroke-width="2"/>
+    <text x="1150" y="807" fill="#FFFFFF" font-size="23" font-weight="800" font-family="Noto Sans SC, PingFang SC, Arial">外部生态</text>
+    <text x="1150" y="846" fill="#FFB09A" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">LLM · Embedding · 内容安全</text>
+    <text x="1150" y="878" fill="#D7A79A" font-size="16" font-family="Noto Sans SC, PingFang SC, Arial">支付 · 物流 · 短信 · 对象存储</text>
+  </g>
+
+</svg>
